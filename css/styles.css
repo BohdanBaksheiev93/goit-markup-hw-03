@@ -91,11 +91,11 @@ nav {
 
 .menu_item {
   display: inline-block;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .menu_link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
