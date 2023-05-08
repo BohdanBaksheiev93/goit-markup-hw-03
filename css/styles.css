@@ -60,13 +60,11 @@ button {
 }
 
 nav {
-  text-align: center;
+  align-items: center;
 }
 
 .nav_menu {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo {
@@ -87,6 +85,8 @@ nav {
 .menu {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu li {
@@ -135,12 +135,16 @@ nav {
   background: var(--brand-color);
 }
 
+.footer_link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer_logo {
   color: var(--light);
 }
 
 .footer_par {
-  margin-top: 17px;
   width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -243,7 +247,7 @@ nav {
 }
 
 .products_item_list {
-  
+
 }
 
 .team {
@@ -253,6 +257,7 @@ nav {
 }
 
 .team_title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -263,18 +268,26 @@ nav {
 
 .team_card {
   display: flex;
-  margin-top: 72px;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team_item {
-  text-align: center;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   text-decoration: none;
   background-color: var(--white-background);
 }
 
-.team_list {
+.team_info {
   padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
+.team_name {
+  margin-bottom: 8px;
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -283,7 +296,7 @@ nav {
 }
 
 .team_par {
-  padding-bottom: 32px;
+  text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
