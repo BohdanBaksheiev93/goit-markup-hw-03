@@ -87,15 +87,12 @@ nav {
 .menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.menu li {
-  display: inline-block;
 }
 
 .menu_item {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu_link {
